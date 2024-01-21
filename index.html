@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Institut Teknologi Bandung</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="bootstrap/css/dataTables.bootstrap.min.css" rel="stylesheet">
+		<link href="bootstrap/css/styles.css" rel="stylesheet">
+		<style>
+      body {
+        padding-top: 60px; 
+      }
+		</style>
+  </head>
+  <body>
+	<!-- Awal script Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="scrollspy">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle Nav</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Institut Teknologi Bandung</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+							<a href="index.html"><span class="glyphicon glyphicon-home"></span> Home <span class="sr-only">(current)</span></a>
+						</li>
+            <li>
+							<a href="about.html"><span class="glyphicon glyphicon-education"></span> About</a>
+						</li>
+						 <li>
+							<a href="contact.html"><span class="glyphicon glyphicon-phone-alt"></span> Contact</a>
+						</li>
+            <li>
+              <a href="mahasiswa.html"><span class="glyphicon glyphicon-bullhorn"></span> Mahasiswa</a>
+            </li>
+						<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-tasks"></span> Fakultas <span class="caret"></span>
+						</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Fakultas Ilmu dan Teknologi Kebumian (FITB)</a></li>
+								<li><a href="#">Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA)</a></li>
+								<li><a href="#">Fakultas Seni Rupa dan Desain (FSRD)</a></li>
+								<li><a href="#">Fakultas Teknologi Industri (FTI)</a></li>
+								<li><a href="#">Fakultas Teknik Mesin dan Dirgantara (FTMD)</a></li>
+								<li><a href="#">Fakultas Teknik Pertambangan dan Perminyakan (FTTM)</a></li>
+								<li><a href="#">Fakultas Teknik Sipil dan Lingkungan (FTSL)</a></li>
+								<li><a href="#">Sekolah Arsitektur, Perencanaan dan Pengembangan Kebijakan (SAPPK)</a></li>
+								<li><a href="#">Sekolah Bisnis dan Manajemen (SBM)</a></li>
+								<li><a href="#">Sekolah Farmasi (SF)</a></li>
+								<li><a href="#">Sekolah Ilmu dan Teknologi Hayati (SITH)</a></li>
+								<li><a href="#">Sekolah Teknik Elektro dan Informatika (STEI)</a></li>
+							</ul>
+						</li>
+            <li>
+							<a href="login.html"><span class="glyphicon glyphicon-lock"></span> Login</a>
+						</li>
+          </ul>
+        </div>
+      </div>
+    </nav><!-- Akhir script Navbar -->
+		<!-- Awal script Slider/ Carousel -->
+		<div id="contoh-carousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#contoh-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#contoh-carousel" data-slide-to="1"></li>
+        <li data-target="#contoh-carousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+			<!-- Awal script Slider pertama -->
+        <div class="item active">
+          <img src="images/gambar1.jpg" alt="Berisi keterangan gambar">
+          <div class="carousel-caption">
+            <h1>Institut Teknologi Bandung </h1>
+            <h4>Sekolah Tinggi Teknik Pertama di Indonesia</h4>
+            <p>Jl. Ganesa No. 10 Coblong, Kota Bandung, Jawa Barat Indonesia 40132</p>
+            <a href="#" class="btn btn-danger">Selengkapnya</a>
+          </div>
+        </div><!-- Akhir script Slider pertama -->
+				<!-- Awal script Slider kedua -->
+        <div class="item">
+          <img src="images/gambar2.jpg" alt="Berisi keterangan gambar">
+          <div class="carousel-caption">
+            <h1>Institut Teknologi Bandung </h1>
+            <h4>Sekolah Tinggi Teknik Pertama di Indonesia</h4>
+            <p>Jl. Ganesa No. 10 Coblong, Kota Bandung, Jawa Barat Indonesia 40132</p>
+            <a href="#" class="btn btn-danger">Selengkapnya</a>
+          </div>
+        </div><!-- Akhir script Slider kedua -->
+				<!-- Awal script Slider ketiga -->
+        <div class="item">
+          <img src="images/gambar3.JPG" alt="Berisi keterangan gambar">
+          <div class="carousel-caption">
+            <h1>Institut Teknologi Bandung </h1>
+            <h4>Sekolah Tinggi Teknik Pertama di Indonesia</h4>
+            <p>Jl. Ganesa No. 10 Coblong, Kota Bandung, Jawa Barat Indonesia 40132</p>
+            <a href="#" class="btn btn-danger">Selengkapnya</a>
+          </div>
+        </div><!-- Akhir script Slider ketiga -->
+    </div>
+		<!-- Awal script Button Geser Kiri dan Kanan -->
+    <a class="left carousel-control" href="#contoh-carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+    </a>
+		
+    <a class="right carousel-control" href="#contoh-carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+    </a><!-- Akhir script Button Geser Kiri dan Kanan -->
+		
+    </div><!-- Akhir script Slider/Carousel -->
+ <!-- Awal Page -->
+<div class="container">
+   <div class="row">
+      <div class="col-md-12">
+         <div class="jumbotron">
+            <ul class="col-md-6">
+            <img src="images/gambar4.jpg" width="380px" height="380px">
+              </ul>
+            <ul class="col-md-6">
+            <font face="times new roman"><h2>Pidato Rektor</h2>
+            <h4>Pengetahuan kini tumbuh dan berkembang di mana-mana, dalam berbagai situasi yang spesifik. Untuk bisa mendorong penciptaan nilai tambah ataupun menjawab permasalahan, dibutuhkan pertukaran pengetahuan (knowledge exchange) baik di antara individu di dalam sebuah organisasi. Meskipun pengetahuan dan kompetensi akademik yang kita miliki merupakan modal yang penting, penciptaan nilai tambah membutuhkan interaksi sosial dan pertukaran pengetahuan secara terus-menerus.
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Selengkapnya</a></p> 
+             </h4></font>
+         </ul>
+         </div>
+      </div>
+   </div> 
+</div>
+<br><br>
+ <!-- Akhir Page -->
+
+    <!-- Awal Page -->
+		<div class="container">
+		
+		<!-- Awal Panel -->
+		<div class="row">
+<font face="times new roman"><h1><center>BERITA</center></h1>
+<div class="container">
+ <div class="row">
+   <div class="panel panel-default">
+        <div class="panel-body">
+          <div class="col-md-4">
+						<img src="images/gambar5.jpg" class="img-round img-thumbnail">
+						<p>Orasi Ilmiah Prof.Rukman Hertadi: Eksplorasi Biomolekul dari Bakteri Halofilik Galur Lokal dan Potensi Aplikasinya.
+						<br/><a class="btn btn-info btn-xs" href="Transportasi.html"role="button">Selengkapnya</a></p>
+					</div>
+					<div class="col-md-4">
+					<img src="images/gambar6.jpg" class="img-round img-thumbnail">
+						<p>Orasi Ilmiah Prof.Fenny Martha Dwivany: Studi Biologi Molekuler dalam Penanganan Pascapanen Buah Pisang. <br/><a class="btn btn-info btn-xs" href="Asrama.html"role="button">Selengkapnya</a></p>
+					</div>
+					<div class="col-md-4">
+						<img src="images/gambar7.jpg" class="img-round img-thumbnail">
+						<p>Orasi Ilmiah Prof. Dr. Aswan: Perjalanan Panjang Sang Penjelajah Waktu dalam Perspektif Sejarah Bumi. <br/><a class="btn btn-info btn-xs" href="Sarana_Olahraga.html"role="button">Selengkapnya</a></p>
+					</div>
+		</div><!-- Akhir Panel -->
+ 
+<!-- FOOTER -->
+		<div class="list-group">
+   <div class="col-md-3">
+ <a href="#" class="list-group-item">
+ <img src="images/gambar11.jpg"  class="img-round" alt="tampilan gambar dengan class img-thumbnail" width="50px" height="50px">
+ <p class="list-group-item-text">ITB Kampus Ganesha
+Jl. Ganesa No. 10
+Coblong, Kota Bandung, Jawa Barat
+Indonesia 40132
+humas@itb.ac.id
+</p>
+</a></ul>
+ </div>
+<div class="list-group">
+   <ul class="col-md-3">
+ <a href="#" class="list-group-item">
+ <img src="images/gambar12.jpg"  class="img-round" alt="tampilan gambar dengan class img-thumbnail" width="50px" height="50px">
+ <p class="list-group-item-text">ITB Kampus Jatinangor
+Jl. Let. Jen. Purn. Dr. (HC) Mashudi No. 1
+Jatinangor, Kab. Sumedang, Jawa Barat
+Indonesia 45363
+<span class="glyphicon glyphicon-message"></span> humas_jatinangor@itb.ac.id
+ </p>
+ </a></ul>
+ </div>
+ <div class="list-group">
+   <ul class="col-md-3">
+ <a href="#" class="list-group-item">
+ <img src="images/gambar13.jpg"  class="img-round" alt="tampilan gambar dengan class img-thumbnail" width="50px" height="50px">
+ <p class="list-group-item-text">ITB Kampus Cirebon
+Jl. Kebonturi
+Arjawinangun, Kab. Cirebon, Jawa Barat
+Indonesia 45162
+ </p>
+ </a></ul>
+ </div>
+ <div class="list-group">
+   <ul class="col-md-3">
+ <a href="#" class="list-group-item">
+ <img src="images/gambar14.jpg"  class="img-round" alt="tampilan gambar dengan class img-thumbnail" width="50px" height="50px">
+ <p class="list-group-item-text">ITB Kampus Jakarta
+Gedung Graha Irama (Indorama) Lt. 10 & 12
+Jl. H. R. Rasuna Said Kav. 1 Setiabudi
+Kota Jakarta Selatan, DKI Jakarta Indonesia 12950 </p></a></ul>
+ </div>
+ </div>
+ </div>
+ </div>
+		 <div class="row">
+      <div class="col-md-12">
+        <center>Copyright &copy Website Institut Teknologi Bandung, design with by Andri<br/><a href="#">Home </a> | <a href="#">About </a> | <a href="#">Contact </a> | <a href="#">Login </a><br/><br/>
+        </center>
+			</div>
+			</div>
+	</div><!-- Akhir FOOTER -->
+ </div>
+ <script src="bootstrap/js/jQuery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
